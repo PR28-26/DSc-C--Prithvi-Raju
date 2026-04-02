@@ -1,0 +1,14 @@
+/*Prithvi Raju
+ISP*/
+#include<stdio.h>
+void main()
+{
+    float x;
+    int x1,x2,x3;
+    printf("enter a number: ");
+    scanf("%f",&x);
+    x1=(int)x;
+    x2=x1/10;
+    x3=x2%10;
+    printf("the second right-most digit is %d",x3);
+}
