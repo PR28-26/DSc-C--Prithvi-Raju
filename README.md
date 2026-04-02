@@ -1,2 +1,2 @@
-# Tutorial-1
+# DSc-C:-Prithvi Raju
 Prithvi Raju : International School of Photonics
