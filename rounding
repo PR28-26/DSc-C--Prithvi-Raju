@@ -1,0 +1,12 @@
+/*Prithvi Raju
+ISP*/
+#include <stdio.h>
+#include <math.h>
+void main()
+{
+    int x, result;
+    printf("enter integer: ");
+    scanf("%d",&x);
+    result = round(x);
+    printf("result is %d",result);
+}
