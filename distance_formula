@@ -1,0 +1,15 @@
+/*Prithvi Raju
+  ISP*/
+#include <stdio.h>
+void main()
+{
+    int u,a,t,d;
+    printf("enter initial speed of vehicle: ");
+    scanf("%d",&u);
+    printf("enter time taken by vehicle: ");
+    scanf("%d",&t);
+    printf("enter acceleration of vehicle:");
+    scanf("%d",&a);
+    d=(u*t) + (0.5*a*t*t);
+    printf("distance travelled by vehicle is %d",d);
+}
