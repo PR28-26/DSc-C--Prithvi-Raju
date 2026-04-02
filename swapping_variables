@@ -1,0 +1,16 @@
+/*Prithvi Raju
+ISP*/
+#include<stdio.h>
+void main()
+{
+    int x,y,x1,y1;
+    printf("enter first variable: ");
+    scanf("%d",&x);
+    printf("the variable x has value %d",x);
+    printf("\nenter second variable: ");
+    scanf("%d",&y);
+    printf("the variable y has value %d",y);
+    x1=y;
+    y1=x;
+    printf("\nafter swapping the values, the values of x and y are %d and %d respectively",x1,y1);
+}
