@@ -1,0 +1,48 @@
+/*Prithvi Raju
+ISP */
+#include<stdio.h>
+int main()
+{
+    int arr[20];
+    int i,n;
+    int search,found;
+    int low,high,mid;
+    printf("\nEnter the no: of elements in array:");
+    low=0;
+    scanf("%d",&n);
+    high=n-1;
+    printf("\nEnter the elements of array in a sorted form:");
+    for(i=0;i<n;i++) 
+    {
+      scanf("%d",&arr[i]);
+    }
+    printf("\n The array is :");
+    for(i=0;i<n;i++) 
+    {
+      printf("%d\t",arr[i]);
+    }
+    printf("\n Enter the value to seach in the array:");
+    scanf("%d",&search);
+    while(low<=high)
+    {
+        mid=(low+high)/2;
+        if(arr[mid]==search)
+        {
+            found=1;
+            printf("\nValue found at %d position",mid);
+        }
+        else if(arr[mid]>search)
+        {
+            high=mid-1;
+        }
+        else
+        {
+            low=mid+1;
+        }
+        if(found==1)
+        {
+            break;
+        }
+    }
+    return 0;
+}
