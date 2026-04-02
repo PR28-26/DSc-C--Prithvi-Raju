@@ -1,0 +1,17 @@
+/*Prithvi Raju
+  ISP*/
+#include<stdio.h>
+int main()
+{
+    int a,b,sum,sub,pdt,divn;
+    a=6;
+    b=3;
+    sum=a+b;
+    sub=a-b;
+    pdt=a*b;
+    divn=a/b;
+    printf("sum of %d and %d is %d",a,b,sum);
+    printf("\ndifference of %d and %d is %d",a,b,sub);
+    printf("\nproduct of %d and %d is %d",a,b,pdt);
+    printf("\nquotient of %d and %d is %d",a,b,divn);
+}
